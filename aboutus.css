@@ -1,0 +1,161 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --main-color: #e84242;
+    --black-color: #0000;
+    --border: 0.1rem solid #575555;
+}
+*{ 
+    font-family:"Tinos" ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top:9rem ;
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: var(--main-color);
+   
+}
+section{
+    padding: 3.5rem 7%;
+
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    
+    font-size: 1.7rem;
+    color: #ffff;
+    background-color: black;
+    cursor: pointer;
+
+}
+.heading{
+    color: #ffff;
+    text-decoration: uppercase;
+    font-size: 4rem;
+    margin-bottom: 3.5rem;
+    border-bottom: 0.1rem solid #ffff;
+    
+}
+.heading .span{
+    text-transform: uppercase;
+    color: #0000;
+    
+}
+
+.search{
+    font-size: 1.6rem;
+    color: black;
+    padding: 1rem;
+    text-transform: none;
+    border-radius: 3rem;
+}
+/* header başlangıc */
+.search img{
+    height: 2rem;
+    width: 2rem;
+}
+.shopping img{
+    height: 20px;
+    width: 20px;
+}
+.bar img{
+    height: 20px;
+    width: 20px;
+}
+header .logo img{
+     height: 10rem;
+}
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    box-shadow: 0px 0px 17px -2px rgb(0,0,0,0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color:black;
+    border-bottom: 0.1rem solid transparent;
+}
+header .navbar .active,
+.header .navbar a:hover{
+    border-bottom: 0.1 solid transparent;
+    border-color: var(--main-color);
+    padding-bottom: 0.5rem;
+}
+.header .buttons button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+}
+#search-top{
+    float: right;
+    display:flex;
+    align-items: center;
+    width: max-content;
+}
+.footer{
+    background-color: black ;
+    text-align: center;
+    width: 100%;
+    height: 50rem;
+    float: inline-start;
+ }
+ .footer .search{
+    display: flex;
+    justify-content: center;
+
+ }
+ .footer .search .search-input{
+    width: 30rem;
+
+ }
+ .footer .search .btn{
+    background-color:var(--main-color) ;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+ } 
+ #erisim{
+    color: aliceblue;
+    text-align: left;
+}
+ul{
+    font-size: 2rem;
+    text-align: left;
+    list-style-type: square;
+    color: aliceblue;
+}
+ul a:hover{
+    color: yellow;
+}
+ul a{
+    color: red;
+}
+section img{
+    width: 35rem;
+    float: left;
+}
+section span{
+    font-size: 3rem;
+    background-color: #b52d2d;
+}
